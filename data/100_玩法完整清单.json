@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "name": "演唱会周边售卖",
+    "category": "活动套利",
+    "scene": "演唱会场外售卖荧光棒/应援牌/贴纸",
+    "expected_income": "1000-3000 元/场",
+    "skills": "选品/销售",
+    "budget": "1000-2000 元",
+    "destinations": "一线城市"
+  },
+  {
+    "id": 2,
+    "name": "演唱会跟拍",
+    "category": "活动套利",
+    "scene": "为粉丝拍摄演唱会现场/场外照片",
+    "expected_income": "2000-5000 元/场",
+    "skills": "摄影",
+    "budget": "2000-3000 元",
+    "destinations": "一线城市"
+  },
+  {
+    "id": 3,
+    "name": "音乐节摊位经营",
+    "category": "活动套利",
+    "scene": "音乐节现场摆摊（饰品/小吃/饮品）",
+    "expected_income": "3000-8000 元/场",
+    "skills": "经营",
+    "budget": "3000-5000 元",
+    "destinations": "音乐节举办地"
+  },
+  {
+    "id": 4,
+    "name": "体育赛事周边",
+    "category": "活动套利",
+    "scene": "球赛/马拉松等赛事周边售卖",
+    "expected_income": "1500-4000 元/场",
+    "skills": "选品/销售",
+    "budget": "1500-2500 元",
+    "destinations": "赛事举办城市"
+  },
+  {
+    "id": 5,
+    "name": "赛事摄影",
+    "category": "活动套利",
+    "scene": "为参赛者/观众提供摄影服务",
+    "expected_income": "2000-6000 元/场",
+    "skills": "摄影",
+    "budget": "2000-3000 元",
+    "destinations": "赛事举办城市"
+  },
+  {
+    "id": 6,
+    "name": "漫展 Cos 道具租赁",
+    "category": "活动套利",
+    "scene": "漫展现场租赁 Cos 服装/道具",
+    "expected_income": "2000-5000 元/展",
+    "skills": "采购/维护",
+    "budget": "3000-8000 元",
+    "destinations": "漫展举办城市"
+  },
+  {
+    "id": 7,
+    "name": "漫展妆造服务",
+    "category": "活动套利",
+    "scene": "漫展现场提供 Cos 妆造服务",
+    "expected_income": "3000-8000 元/展",
+    "skills": "化妆",
+    "budget": "1000-2000 元",
+    "destinations": "漫展举办城市"
+  },
+  {
+    "id": 8,
+    "name": "漫展摄影",
+    "category": "活动套利",
+    "scene": "为 Coser 提供场照/正片拍摄",
+    "expected_income": "3000-10000 元/展",
+    "skills": "摄影/后期",
+    "budget": "2000-3000 元",
+    "destinations": "漫展举办城市"
+  },
+  {
+    "id": 9,
+    "name": "展会/会议翻译",
+    "category": "活动套利",
+    "scene": "展会现场提供外语翻译服务",
+    "expected_income": "800-2000 元/天",
+    "skills": "外语",
+    "budget": "500-1000 元",
+    "destinations": "会展中心城市"
+  },
+  {
+    "id": 10,
+    "name": "展会临时向导",
+    "category": "活动套利",
+    "scene": "为参展商/观众提供向导服务",
+    "expected_income": "500-1500 元/天",
+    "skills": "沟通",
+    "budget": "500-1000 元",
+    "destinations": "会展中心城市"
+  },
+  {
+    "id": 11,
+    "name": "展会资料代取",
+    "category": "活动套利",
+    "scene": "代取展会资料/样品并邮寄",
+    "expected_income": "500-2000 元/场",
+    "skills": "物流",
+    "budget": "500-1000 元",
+    "destinations": "会展中心城市"
+  },
+  {
+    "id": 12,
+    "name": "展览讲解服务",
+    "category": "活动套利",
+    "scene": "为观众提供专业展览讲解",
+    "expected_income": "800-2000 元/天",
+    "skills": "专业知识",
+    "budget": "500-1000 元",
+    "destinations": "展览城市"
+  },
+  {
+    "id": 13,
+    "name": "活动礼仪/模特",
+    "category": "活动套利",
+    "scene": "活动现场礼仪/展示模特",
+    "expected_income": "500-2000 元/天",
+    "skills": "形象好",
+    "budget": "500-1000 元",
+    "destinations": "一线城市"
+  },
+  {
+    "id": 14,
+    "name": "活动临时工作人员",
+    "category": "活动套利",
+    "scene": "活动执行/场务/签到等",
+    "expected_income": "300-800 元/天",
+    "skills": "无",
+    "budget": "500-1000 元",
+    "destinations": "活动举办地"
+  },
+  {
+    "id": 15,
+    "name": "活动直播代看",
+    "category": "活动套利",
+    "scene": "帮无法到场的人直播活动",
+    "expected_income": "1000-3000 元/场",
+    "skills": "直播设备",
+    "budget": "2000-4000 元",
+    "destinations": "活动举办地"
+  },
+  {
+    "id": 16,
+    "name": "旅拍跟拍（通用）",
+    "category": "技能变现",
+    "scene": "为游客提供旅行跟拍服务",
+    "expected_income": "3000-8000 元/次",
+    "skills": "摄影/后期",
+    "budget": "3000-5000 元",
+    "destinations": "热门旅游城市"
+  },
+  {
+    "id": 17,
+    "name": "樱花季旅拍",
+    "category": "技能变现",
+    "scene": "樱花季专项旅拍（季节性）",
+    "expected_income": "4000-10000 元/季",
+    "skills": "摄影/后期",
+    "budget": "3000-5000 元",
+    "destinations": "武汉/无锡/青岛"
+  },
+  {
+    "id": 18,
+    "name": "海岛旅拍",
+    "category": "技能变现",
+    "scene": "海岛度假旅拍（婚纱/情侣）",
+    "expected_income": "5000-15000 元/次",
+    "skills": "摄影/后期",
+    "budget": "5000-8000 元",
+    "destinations": "三亚/东南亚"
+  },
+  {
+    "id": 19,
+    "name": "雪山旅拍",
+    "category": "技能变现",
+    "scene": "雪山/滑雪场景旅拍",
+    "expected_income": "4000-12000 元/次",
+    "skills": "摄影/抗寒",
+    "budget": "5000-8000 元",
+    "destinations": "川西/东北/日本"
+  },
+  {
+    "id": 20,
+    "name": "古镇旅拍",
+    "category": "技能变现",
+    "scene": "古镇/古城主题旅拍",
+    "expected_income": "2000-6000 元/次",
+    "skills": "摄影",
+    "budget": "2000-3000 元",
+    "destinations": "丽江/凤凰/乌镇"
+  },
+  {
+    "id": 21,
+    "name": "汉服旅拍",
+    "category": "技能变现",
+    "scene": "汉服 + 古风场景旅拍",
+    "expected_income": "3000-8000 元/次",
+    "skills": "摄影/汉服知识",
+    "budget": "3000-5000 元",
+    "destinations": "西安/杭州/洛阳"
+  },
+  {
+    "id": 22,
+    "name": "亲子旅拍",
+    "category": "技能变现",
+    "scene": "家庭亲子旅行跟拍",
+    "expected_income": "2000-6000 元/次",
+    "skills": "摄影/亲和力",
+    "budget": "2000-3000 元",
+    "destinations": "亲子游目的地"
+  },
+  {
+    "id": 23,
+    "name": "宠物旅拍",
+    "category": "技能变现",
+    "scene": "带宠旅行的专属拍摄",
+    "expected_income": "2000-5000 元/次",
+    "skills": "摄影/懂宠物",
+    "budget": "2000-3000 元",
+    "destinations": "宠物友好目的地"
+  },
+  {
+    "id": 24,
+    "name": "视频剪辑服务",
+    "category": "技能变现",
+    "scene": "帮游客剪辑旅行 vlog",
+    "expected_income": "2000-6000 元/次",
+    "skills": "视频剪辑",
+    "budget": "3000-5000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 25,
+    "name": "旅行纪录片拍摄",
+    "category": "技能变现",
+    "scene": "为游客制作微型纪录片",
+    "expected_income": "5000-15000 元/次",
+    "skills": "摄影/剪辑/叙事",
+    "budget": "8000-15000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 26,
+    "name": "无人机航拍",
+    "category": "技能变现",
+    "scene": "旅行航拍服务",
+    "expected_income": "3000-10000 元/次",
+    "skills": "无人机操作",
+    "budget": "5000-10000 元",
+    "destinations": "开阔景区"
+  },
+  {
+    "id": 27,
+    "name": "外语陪同翻译",
+    "category": "技能变现",
+    "scene": "境外游陪同翻译",
+    "expected_income": "800-2000 元/天",
+    "skills": "外语",
+    "budget": "1000-2000 元",
+    "destinations": "境外目的地"
+  },
+  {
+    "id": 28,
+    "name": "菜单/路牌翻译",
+    "category": "技能变现",
+    "scene": "为游客翻译菜单/路牌",
+    "expected_income": "200-500 元/次",
+    "skills": "外语",
+    "budget": "500-1000 元",
+    "destinations": "境外目的地"
+  },
+  {
+    "id": 29,
+    "name": "购物翻译协助",
+    "category": "技能变现",
+    "scene": "陪同购物翻译/议价",
+    "expected_income": "500-1500 元/次",
+    "skills": "外语/沟通",
+    "budget": "1000-2000 元",
+    "destinations": "境外购物城市"
+  },
+  {
+    "id": 30,
+    "name": "潜水教练",
+    "category": "技能变现",
+    "scene": "潜水教学 + 跟潜",
+    "expected_income": "1000-3000 元/天",
+    "skills": "潜水证书",
+    "budget": "5000-10000 元",
+    "destinations": "海岛目的地"
+  },
+  {
+    "id": 31,
+    "name": "滑雪教练",
+    "category": "技能变现",
+    "scene": "滑雪教学 + 跟滑",
+    "expected_income": "800-2000 元/天",
+    "skills": "滑雪证书",
+    "budget": "5000-10000 元",
+    "destinations": "滑雪胜地"
+  },
+  {
+    "id": 32,
+    "name": "冲浪教练",
+    "category": "技能变现",
+    "scene": "冲浪教学",
+    "expected_income": "800-2000 元/天",
+    "skills": "冲浪证书",
+    "budget": "5000-10000 元",
+    "destinations": "冲浪胜地"
+  },
+  {
+    "id": 33,
+    "name": "瑜伽 retreat",
+    "category": "技能变现",
+    "scene": "旅行 + 瑜伽教学",
+    "expected_income": "5000-15000 元/次",
+    "skills": "瑜伽证书",
+    "budget": "3000-5000 元",
+    "destinations": "静谧目的地"
+  },
+  {
+    "id": 34,
+    "name": "美食向导",
+    "category": "技能变现",
+    "scene": "带游客吃地道美食",
+    "expected_income": "500-1500 元/次",
+    "skills": "本地知识",
+    "budget": "500-1000 元",
+    "destinations": "美食城市"
+  },
+  {
+    "id": 35,
+    "name": "本地向导",
+    "category": "技能变现",
+    "scene": "深度讲解本地文化/历史",
+    "expected_income": "500-2000 元/天",
+    "skills": "本地知识",
+    "budget": "500-1000 元",
+    "destinations": "历史文化城市"
+  },
+  {
+    "id": 36,
+    "name": "旅行博主（通用）",
+    "category": "内容创作",
+    "scene": "短视频/图文内容创作",
+    "expected_income": "2000-10000 元/月",
+    "skills": "内容创作",
+    "budget": "2000-3000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 37,
+    "name": "旅行 vlog 博主",
+    "category": "内容创作",
+    "scene": "旅行视频日记",
+    "expected_income": "3000-15000 元/月",
+    "skills": "拍摄/剪辑",
+    "budget": "5000-8000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 38,
+    "name": "旅行摄影博主",
+    "category": "内容创作",
+    "scene": "旅行摄影作品分享",
+    "expected_income": "2000-8000 元/月",
+    "skills": "摄影",
+    "budget": "5000-10000 元",
+    "destinations": "风景优美地"
+  },
+  {
+    "id": 39,
+    "name": "旅行美食博主",
+    "category": "内容创作",
+    "scene": "探店/美食测评",
+    "expected_income": "2000-10000 元/月",
+    "skills": "美食鉴赏",
+    "budget": "2000-3000 元",
+    "destinations": "美食城市"
+  },
+  {
+    "id": 40,
+    "name": "旅行酒店测评",
+    "category": "内容创作",
+    "scene": "酒店体验测评",
+    "expected_income": "3000-15000 元/月",
+    "skills": "写作/摄影",
+    "budget": "3000-5000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 41,
+    "name": "旅行航线测评",
+    "category": "内容创作",
+    "scene": "航司/航线体验测评",
+    "expected_income": "2000-8000 元/月",
+    "skills": "写作",
+    "budget": "3000-5000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 42,
+    "name": "100 元挑战生存",
+    "category": "内容创作",
+    "scene": "极限预算旅行内容",
+    "expected_income": "3000-10000 元/系列",
+    "skills": "内容创作",
+    "budget": "100-500 元",
+    "destinations": "低消费城市"
+  },
+  {
+    "id": 43,
+    "name": "以物易物旅行",
+    "category": "内容创作",
+    "scene": "以物易物过程记录",
+    "expected_income": "5000-20000 元/系列",
+    "skills": "内容创作",
+    "budget": "0 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 44,
+    "name": "打工换宿记录",
+    "category": "内容创作",
+    "scene": "打工换宿经历分享",
+    "expected_income": "2000-8000 元/月",
+    "skills": "内容创作",
+    "budget": "500-1000 元",
+    "destinations": "青旅集中地"
+  },
+  {
+    "id": 45,
+    "name": "旅行攻略售卖",
+    "category": "内容创作",
+    "scene": "付费攻略/路线规划",
+    "expected_income": "1000-5000 元/份",
+    "skills": "规划能力",
+    "budget": "500-1000 元",
+    "destinations": "热门目的地"
+  },
+  {
+    "id": 46,
+    "name": "旅行课程售卖",
+    "category": "内容创作",
+    "scene": "旅行摄影/剪辑课程",
+    "expected_income": "5000-20000 元/期",
+    "skills": "教学能力",
+    "budget": "1000-2000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 47,
+    "name": "付费社群运营",
+    "category": "内容创作",
+    "scene": "旅行创收交流群",
+    "expected_income": "3000-15000 元/月",
+    "skills": "运营能力",
+    "budget": "500-1000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 48,
+    "name": "旅行直播带货",
+    "category": "内容创作",
+    "scene": "旅行中直播卖货",
+    "expected_income": "5000-30000 元/月",
+    "skills": "直播能力",
+    "budget": "3000-5000 元",
+    "destinations": "特产产地"
+  },
+  {
+    "id": 49,
+    "name": "旅行故事代写",
+    "category": "内容创作",
+    "scene": "帮人写旅行故事/游记",
+    "expected_income": "500-2000 元/篇",
+    "skills": "写作",
+    "budget": "500-1000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 50,
+    "name": "旅行照片代修",
+    "category": "内容创作",
+    "scene": "帮游客修旅行照片",
+    "expected_income": "1000-5000 元/次",
+    "skills": "后期",
+    "budget": "3000-5000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 51,
+    "name": "免税店代购",
+    "category": "代购带货",
+    "scene": "免税店采购代购",
+    "expected_income": "2000-8000 元/次",
+    "skills": "选品",
+    "budget": "5000-10000 元",
+    "destinations": "海南/韩国/日本"
+  },
+  {
+    "id": 52,
+    "name": "化妆品代购",
+    "category": "代购带货",
+    "scene": "当地化妆品代购",
+    "expected_income": "1500-5000 元/次",
+    "skills": "选品",
+    "budget": "3000-8000 元",
+    "destinations": "日韩/欧美"
+  },
+  {
+    "id": 53,
+    "name": "奢侈品代购",
+    "category": "代购带货",
+    "scene": "奢侈品包包/手表代购",
+    "expected_income": "3000-15000 元/次",
+    "skills": "鉴别能力",
+    "budget": "20000-50000 元",
+    "destinations": "欧美/日韩"
+  },
+  {
+    "id": 54,
+    "name": "电子产品代购",
+    "category": "代购带货",
+    "scene": "电子产品/数码代购",
+    "expected_income": "2000-8000 元/次",
+    "skills": "鉴别能力",
+    "budget": "10000-20000 元",
+    "destinations": "日韩/欧美"
+  },
+  {
+    "id": 55,
+    "name": "母婴产品代购",
+    "category": "代购带货",
+    "scene": "奶粉/尿不湿等代购",
+    "expected_income": "1500-5000 元/次",
+    "skills": "选品",
+    "budget": "5000-10000 元",
+    "destinations": "日韩/澳洲"
+  },
+  {
+    "id": 56,
+    "name": "保健品代购",
+    "category": "代购带货",
+    "scene": "维生素/保健品代购",
+    "expected_income": "1500-5000 元/次",
+    "skills": "选品",
+    "budget": "5000-10000 元",
+    "destinations": "澳洲/美国"
+  },
+  {
+    "id": 57,
+    "name": "特产代购",
+    "category": "代购带货",
+    "scene": "当地特色食品/手信",
+    "expected_income": "1000-3000 元/次",
+    "skills": "选品",
+    "budget": "2000-5000 元",
+    "destinations": "特产产地"
+  },
+  {
+    "id": 58,
+    "name": "手工艺品代购",
+    "category": "代购带货",
+    "scene": "当地手工艺品代购",
+    "expected_income": "1500-5000 元/次",
+    "skills": "审美",
+    "budget": "3000-8000 元",
+    "destinations": "手工艺城市"
+  },
+  {
+    "id": 59,
+    "name": "限量款代购",
+    "category": "代购带货",
+    "scene": "限量球鞋/潮牌代购",
+    "expected_income": "3000-15000 元/次",
+    "skills": "抢购能力",
+    "budget": "10000-20000 元",
+    "destinations": "首发城市"
+  },
+  {
+    "id": 60,
+    "name": "展会新品代购",
+    "category": "代购带货",
+    "scene": "展会首发产品代购",
+    "expected_income": "2000-8000 元/次",
+    "skills": "选品",
+    "budget": "5000-10000 元",
+    "destinations": "展会城市"
+  },
+  {
+    "id": 61,
+    "name": "书店/文创代购",
+    "category": "代购带货",
+    "scene": "书籍/文创产品代购",
+    "expected_income": "1000-3000 元/次",
+    "skills": "选品",
+    "budget": "2000-5000 元",
+    "destinations": "文化城市"
+  },
+  {
+    "id": 62,
+    "name": "药品代购",
+    "category": "代购带货",
+    "scene": "当地特色药品代购",
+    "expected_income": "1500-5000 元/次",
+    "skills": "药品知识",
+    "budget": "3000-8000 元",
+    "destinations": "日本/德国"
+  },
+  {
+    "id": 63,
+    "name": "茶叶代购",
+    "category": "代购带货",
+    "scene": "产地茶叶代购",
+    "expected_income": "2000-8000 元/次",
+    "skills": "茶叶知识",
+    "budget": "5000-10000 元",
+    "destinations": "茶叶产地"
+  },
+  {
+    "id": 64,
+    "name": "酒类代购",
+    "category": "代购带货",
+    "scene": "红酒/威士忌代购",
+    "expected_income": "3000-15000 元/次",
+    "skills": "酒类知识",
+    "budget": "10000-20000 元",
+    "destinations": "产区/免税店"
+  },
+  {
+    "id": 65,
+    "name": "艺术品代购",
+    "category": "代购带货",
+    "scene": "小型艺术品/画作代购",
+    "expected_income": "5000-30000 元/次",
+    "skills": "艺术鉴赏",
+    "budget": "20000-50000 元",
+    "destinations": "艺术城市"
+  },
+  {
+    "id": 66,
+    "name": "酒店试睡员",
+    "category": "资源变现",
+    "scene": "体验酒店写测评",
+    "expected_income": "3000-10000 元/月",
+    "skills": "写作/摄影",
+    "budget": "1000-2000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 67,
+    "name": "航司体验官",
+    "category": "资源变现",
+    "scene": "体验航线写测评",
+    "expected_income": "2000-8000 元/月",
+    "skills": "写作",
+    "budget": "2000-3000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 68,
+    "name": "景点体验师",
+    "category": "资源变现",
+    "scene": "体验景点写测评",
+    "expected_income": "2000-8000 元/月",
+    "skills": "写作/摄影",
+    "budget": "1000-2000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 69,
+    "name": "民宿二房东",
+    "category": "资源变现",
+    "scene": "长租公寓短租给游客",
+    "expected_income": "5000-20000 元/月",
+    "skills": "运营",
+    "budget": "20000-50000 元",
+    "destinations": "旅游城市"
+  },
+  {
+    "id": 70,
+    "name": "青旅打工换宿",
+    "category": "资源变现",
+    "scene": "青旅工作换免费住宿",
+    "expected_income": "0 元（省住宿费）",
+    "skills": "无",
+    "budget": "500-1000 元",
+    "destinations": "青旅集中地"
+  },
+  {
+    "id": 71,
+    "name": "民宿打工换宿",
+    "category": "资源变现",
+    "scene": "民宿工作换食宿",
+    "expected_income": "0 元（省食宿）",
+    "skills": "无",
+    "budget": "500-1000 元",
+    "destinations": "旅游城市"
+  },
+  {
+    "id": 72,
+    "name": "车辆租赁",
+    "category": "资源变现",
+    "scene": "把自己的车租给游客",
+    "expected_income": "200-800 元/天",
+    "skills": "有车",
+    "budget": "0 元（已有车）",
+    "destinations": "旅游城市"
+  },
+  {
+    "id": 73,
+    "name": "包车服务",
+    "category": "资源变现",
+    "scene": "带车带司机包车服务",
+    "expected_income": "500-1500 元/天",
+    "skills": "驾驶/有车",
+    "budget": "0 元（已有车）",
+    "destinations": "旅游城市"
+  },
+  {
+    "id": 74,
+    "name": "活动承办",
+    "category": "资源变现",
+    "scene": "组织小型旅行团/聚会",
+    "expected_income": "3000-15000 元/次",
+    "skills": "组织能力",
+    "budget": "5000-10000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 75,
+    "name": "主题旅行组织",
+    "category": "资源变现",
+    "scene": "组织主题旅行（摄影/美食）",
+    "expected_income": "5000-20000 元/次",
+    "skills": "组织能力",
+    "budget": "10000-20000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 76,
+    "name": "企业团建组织",
+    "category": "资源变现",
+    "scene": "组织企业团建活动",
+    "expected_income": "10000-50000 元/次",
+    "skills": "组织能力",
+    "budget": "20000-50000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 77,
+    "name": "场地短租",
+    "category": "资源变现",
+    "scene": "把自己的场地短租给游客",
+    "expected_income": "500-2000 元/天",
+    "skills": "有场地",
+    "budget": "0 元（已有场地）",
+    "destinations": "旅游城市"
+  },
+  {
+    "id": 78,
+    "name": "设备租赁",
+    "category": "资源变现",
+    "scene": "摄影/户外设备租赁",
+    "expected_income": "300-1000 元/天",
+    "skills": "有设备",
+    "budget": "0 元（已有设备）",
+    "destinations": "旅游城市"
+  },
+  {
+    "id": 79,
+    "name": "旅行顾问",
+    "category": "资源变现",
+    "scene": "旅行规划咨询服务",
+    "expected_income": "500-2000 元/小时",
+    "skills": "规划能力",
+    "budget": "1000-2000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 80,
+    "name": "签证代办",
+    "category": "资源变现",
+    "scene": "协助办理签证",
+    "expected_income": "500-2000 元/单",
+    "skills": "签证知识",
+    "budget": "2000-3000 元",
+    "destinations": "任何目的地"
+  },
+  {
+    "id": 81,
+    "name": "代排队服务",
+    "category": "反常识/创意",
+    "scene": "网红店/展览代排队",
+    "expected_income": "300-800 元/次",
+    "skills": "时间/体力",
+    "budget": "500-1000 元",
+    "destinations": "网红城市"
+  },
+  {
+    "id": 82,
+    "name": "当群演",
+    "category": "反常识/创意",
+    "scene": "影视城/拍摄地当群演",
+    "expected_income": "200-800 元/天",
+    "skills": "无",
+    "budget": "1000-2000 元",
+    "destinations": "影视城"
+  },
+  {
+    "id": 83,
+    "name": "旅行打麻将",
+    "category": "反常识/创意",
+    "scene": "去麻将文化城市教麻将",
+    "expected_income": "500-1500 元/天",
+    "skills": "会麻将",
+    "budget": "1000-2000 元",
+    "destinations": "成都/长沙"
+  },
+  {
+    "id": 84,
+    "name": "旅行摆摊",
+    "category": "反常识/创意",
+    "scene": "每个城市摆摊卖手工/小吃",
+    "expected_income": "500-2000 元/天",
+    "skills": "手艺",
+    "budget": "1000-3000 元",
+    "destinations": "任何城市"
+  },
+  {
+    "id": 85,
+    "name": "街头表演",
+    "category": "反常识/创意",
+    "scene": "街头音乐/魔术表演",
+    "expected_income": "300-1500 元/天",
+    "skills": "表演能力",
+    "budget": "1000-3000 元",
+    "destinations": "旅游城市"
+  },
+  {
+    "id": 86,
+    "name": "旅行做调研",
+    "category": "反常识/创意",
+    "scene": "接市场研究公司调研任务",
+    "expected_income": "500-2000 元/次",
+    "skills": "配合度",
+    "budget": "500-1000 元",
+    "destinations": "任何城市"
+  },
+  {
+    "id": 87,
+    "name": "考试季陪考",
+    "category": "反常识/创意",
+    "scene": "去其他城市陪朋友考试",
+    "expected_income": "300-800 元/天",
+    "skills": "无",
+    "budget": "1000-2000 元",
+    "destinations": "考试城市"
+  },
+  {
+    "id": 88,
+    "name": "婚礼伴郎/伴娘",
+    "category": "反常识/创意",
+    "scene": "当职业伴郎/伴娘",
+    "expected_income": "500-2000 元/次",
+    "skills": "形象好",
+    "budget": "1000-2000 元",
+    "destinations": "任何城市"
+  },
+  {
+    "id": 89,
+    "name": "旅行当模特",
+    "category": "反常识/创意",
+    "scene": "当地摄影/绘画模特",
+    "expected_income": "500-2000 元/次",
+    "skills": "形象好",
+    "budget": "1000-2000 元",
+    "destinations": "艺术城市"
+  },
+  {
+    "id": 90,
+    "name": "旅行当临时店员",
+    "category": "反常识/创意",
+    "scene": "旅行地临时店员",
+    "expected_income": "200-500 元/天",
+    "skills": "无",
+    "budget": "1000-2000 元",
+    "destinations": "旅游城市"
+  },
+  {
+    "id": 91,
+    "name": "旅行当临时厨师",
+    "category": "反常识/创意",
+    "scene": "餐厅临时厨师",
+    "expected_income": "500-1500 元/天",
+    "skills": "烹饪",
+    "budget": "1000-2000 元",
+    "destinations": "任何城市"
+  },
+  {
+    "id": 92,
+    "name": "旅行当临时导游",
+    "category": "反常识/创意",
+    "scene": "旅行社临时导游",
+    "expected_income": "500-1500 元/天",
+    "skills": "导游证",
+    "budget": "1000-2000 元",
+    "destinations": "旅游城市"
+  },
+  {
+    "id": 93,
+    "name": "旅行当临时助教",
+    "category": "反常识/创意",
+    "scene": "夏令营/研学团助教",
+    "expected_income": "500-1500 元/天",
+    "skills": "无",
+    "budget": "1000-2000 元",
+    "destinations": "任何城市"
+  },
+  {
+    "id": 94,
+    "name": "旅行当临时翻译",
+    "category": "反常识/创意",
+    "scene": "临时翻译服务",
+    "expected_income": "800-2000 元/天",
+    "skills": "外语",
+    "budget": "1000-2000 元",
+    "destinations": "任何城市"
+  },
+  {
+    "id": 95,
+    "name": "旅行当临时秘书",
+    "category": "反常识/创意",
+    "scene": "商务陪同/秘书服务",
+    "expected_income": "800-2000 元/天",
+    "skills": "办公技能",
+    "budget": "1000-2000 元",
+    "destinations": "商务城市"
+  },
+  {
+    "id": 96,
+    "name": "旅行当临时摄影",
+    "category": "反常识/创意",
+    "scene": "活动/会议临时摄影",
+    "expected_income": "1000-3000 元/天",
+    "skills": "摄影",
+    "budget": "5000-10000 元",
+    "destinations": "任何城市"
+  },
+  {
+    "id": 97,
+    "name": "旅行当临时剪辑",
+    "category": "反常识/创意",
+    "scene": "活动/会议临时剪辑",
+    "expected_income": "1000-3000 元/天",
+    "skills": "剪辑",
+    "budget": "5000-10000 元",
+    "destinations": "任何城市"
+  },
+  {
+    "id": 98,
+    "name": "旅行当临时设计",
+    "category": "反常识/创意",
+    "scene": "活动/会议临时设计",
+    "expected_income": "1000-5000 元/天",
+    "skills": "设计",
+    "budget": "5000-10000 元",
+    "destinations": "任何城市"
+  },
+  {
+    "id": 99,
+    "name": "旅行当临时编程",
+    "category": "反常识/创意",
+    "scene": "远程工作 + 旅行",
+    "expected_income": "10000-30000 元/月",
+    "skills": "编程",
+    "budget": "5000-10000 元",
+    "destinations": "任何城市"
+  },
+  {
+    "id": 100,
+    "name": "旅行当临时写作",
+    "category": "反常识/创意",
+    "scene": "旅行中接写作任务",
+    "expected_income": "3000-15000 元/月",
+    "skills": "写作",
+    "budget": "2000-3000 元",
+    "destinations": "任何城市"
+  }
+]
