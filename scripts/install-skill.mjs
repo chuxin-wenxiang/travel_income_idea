@@ -6,7 +6,7 @@ if(index>=0&&!args[index+1])throw Error('--dest 需要路径');
 const destination=resolve(index>=0?args[index+1]:join(process.env.CODEX_HOME||join(homedir(),'.codex'),'skills','travel-income-assistant'));
 const updating=args.includes('--update');
 const backupRoot=index>=0?join(dirname(destination),'.travel-skill-backups'):join(process.env.CODEX_HOME||join(homedir(),'.codex'),'skill-backups');
-const files=['SKILL.md','docs/model.md','docs/product.md','docs/sources.md','data/pilots.json','data/100_玩法完整清单.json','web/engine.mjs','lib/jobicy.mjs','scripts/calculate.mjs','scripts/discover.mjs','scripts/domestic.mjs','web/domestic.mjs','data/domestic-sources.json','data/shanghai-review.json','docs/shanghai-validation.md','docs/opportunity-map.md','data/opportunity-map.json'];
+const files=['SKILL.md','docs/model.md','docs/product.md','docs/sources.md','data/pilots.json','data/100_玩法完整清单.json','web/engine.mjs','lib/jobicy.mjs','scripts/calculate.mjs','scripts/discover.mjs','scripts/domestic.mjs','web/domestic.mjs','data/domestic-sources.json','data/shanghai-review.json','docs/shanghai-validation.md','docs/opportunity-map.md','docs/multi-stop-business.md','data/opportunity-map.json'];
 try{
  let exists=false;try{await access(destination);exists=true;}catch{}
  if(exists&&!updating)throw Error('目标已存在；更新请加 --update（会保留旧版本备份）');
