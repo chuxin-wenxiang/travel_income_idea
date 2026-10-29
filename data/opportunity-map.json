@@ -1,0 +1,811 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-29",
+  "scope": "40 个商业切口，包含原100条的细化与新补充，不声称140种独立生意或40条真实订单",
+  "originalCatalog": "100_玩法完整清单.json",
+  "sources": [
+    {
+      "id": "events",
+      "name": "大麦演出赛事分类",
+      "url": "https://help.damai.cn/helpPage.htm?pageId=69",
+      "role": "活动事实",
+      "status": "已核验平台业务范围；单场日期、场馆、观众与入场规则需另查，不是摊位许可",
+      "checkedAt": "2026-10-29",
+      "automaticFeed": false
+    },
+    {
+      "id": "anime",
+      "name": "哔哩哔哩漫展节目单",
+      "url": "https://www.bilibili.com/blackboard/BATschedule2.html",
+      "role": "活动事实",
+      "status": "已检索到官方活动入口；不代表当前项目有商家招募或周边销售授权",
+      "checkedAt": "2026-10-29",
+      "automaticFeed": false
+    },
+    {
+      "id": "creator",
+      "name": "小红书蒲公英合作指南",
+      "url": "https://pgy.xiaohongshu.com/help/detail?id=becb34b400e29cc70616d86f42001738&userType=4",
+      "role": "内容交易机制",
+      "status": "已核验品牌招募、博主报名和反选机制；账号准入、当前商单需用户登录核验",
+      "checkedAt": "2026-10-29",
+      "automaticFeed": false
+    },
+    {
+      "id": "localcommerce",
+      "name": "抖音生活服务达人成长手册",
+      "url": "https://life.douyin.com/support/content/124147?menu=1&spaceId=123",
+      "role": "成交佣金机制",
+      "status": "官方历史指南说明团购带货路径；最新资格、佣金、退单与结算以当前账户规则为准",
+      "checkedAt": "2026-10-29",
+      "automaticFeed": false
+    },
+    {
+      "id": "research",
+      "name": "益普索神秘顾客研究",
+      "url": "https://www.ipsos.com/zh-cn/shenmigukeyanjiu",
+      "role": "买方业务存在证据",
+      "status": "官方说明线下体验与评估业务；不是个人报名入口，不代表当前有杭州任务",
+      "checkedAt": "2026-10-29",
+      "automaticFeed": false
+    },
+    {
+      "id": "services",
+      "name": "猪八戒需求参与指南",
+      "url": "https://news.zbj.com/newsdetail-8466.html?fr=mobile",
+      "role": "服务需求渠道",
+      "status": "官方说明需求大厅与报价流程；现行准入、费用和具体任务需在原站核验",
+      "checkedAt": "2026-10-29",
+      "automaticFeed": false
+    },
+    {
+      "id": "licensing",
+      "name": "视觉中国供稿合作",
+      "url": "https://static.vcg.com/html/register.html",
+      "role": "作品授权渠道",
+      "status": "官方说明原创图片、视频等供稿申请；上传不等于售出，签约与权利要求需另核",
+      "checkedAt": "2026-10-29",
+      "automaticFeed": false
+    },
+    {
+      "id": "swap",
+      "name": "义工旅行大联盟",
+      "url": "https://www.xhblx.com/wap",
+      "role": "住宿交换线索",
+      "status": "读到店家与到岗列表；杭州样本详情跳转，工时、食宿和最短驻留未核实",
+      "checkedAt": "2026-10-29",
+      "automaticFeed": false
+    },
+    {
+      "id": "delivery",
+      "name": "闪送员招募",
+      "url": "https://m.ishansong.com/courierView/recruit/info-collection?channel=10489",
+      "role": "本地配送准入",
+      "status": "官方说明资料、培训与考试；不是跨城顺路带货平台，不保证旅行抵达当天可接单",
+      "checkedAt": "2026-10-29",
+      "automaticFeed": false
+    },
+    {
+      "id": "supply",
+      "name": "1688",
+      "url": "https://www.1688.com/",
+      "role": "待核验货源入口",
+      "status": "候选批发入口，本轮未核验具体商品、价格、起订量、授权或供货能力",
+      "checkedAt": "2026-10-29",
+      "automaticFeed": false
+    },
+    {
+      "id": "organizer",
+      "name": "活动主办方、场馆和商圈官方公告",
+      "url": null,
+      "role": "待定位的一手来源",
+      "status": "必须按具体事件定位原公告，确认招商、摊位、品类、位置、费用与退改，不能凭客流猜可经营",
+      "checkedAt": "2026-10-29",
+      "automaticFeed": false
+    },
+    {
+      "id": "buyer",
+      "name": "具体店家、参展商或已有客户的需求",
+      "url": null,
+      "role": "待验证的买方需求",
+      "status": "先取得有明确交付物和付款条件的需求；列出商家不等于已经有订单",
+      "checkedAt": "2026-10-29",
+      "automaticFeed": false
+    },
+    {
+      "id": "season",
+      "name": "景区、目的地文旅及天气官方信息",
+      "url": null,
+      "role": "季节和出行信号",
+      "status": "按目的地查询花期、开放时间与天气；热度不是销量，不默认形成商机",
+      "checkedAt": "2026-10-29",
+      "automaticFeed": false
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "cut-001",
+      "scene": "演唱会与音乐节",
+      "audience": "观众及同行者",
+      "name": "通用应援用品小批量零售",
+      "offer": "出售不冒充官方的发光/应援用品",
+      "revenueModel": "商品差价",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "events",
+        "organizer",
+        "supply"
+      ],
+      "mustVerify": "核对官方是否免费发放、是否允许携带，先确认经营点位；IP商品核验授权",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-002",
+      "scene": "演唱会与音乐节",
+      "audience": "观众及同行者",
+      "name": "应援套装预订与现场交付",
+      "offer": "将通用收纳袋、挂绳等组为可预订套餐",
+      "revenueModel": "商品差价",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "events",
+        "organizer",
+        "supply"
+      ],
+      "mustVerify": "先验证预订需求，确认交付点和取消规则，避免临时压货",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-003",
+      "scene": "演唱会与音乐节",
+      "audience": "观众及同行者",
+      "name": "场外即时合影与照片打印",
+      "offer": "拍照、选片、打印成纪念照",
+      "revenueModel": "服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "events",
+        "organizer",
+        "supply"
+      ],
+      "mustVerify": "确认拍摄和经营位置；打印耗材、废片、设备携带计成本",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-004",
+      "scene": "演唱会与音乐节",
+      "audience": "观众及同行者",
+      "name": "雨天或降温应急小件",
+      "offer": "雨衣、防水袋、保暖贴等场景用品",
+      "revenueModel": "商品差价",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "events",
+        "organizer",
+        "supply"
+      ],
+      "mustVerify": "按实际天气和物品携带规则选货；无需求时库存如何处理",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-005",
+      "scene": "IP展览、动漫展与亲子展",
+      "audience": "亲子家庭、收藏者、Coser",
+      "name": "正版主题周边零售",
+      "offer": "经授权或可核验来源的奥特曼等主题商品",
+      "revenueModel": "商品差价",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "anime",
+        "organizer",
+        "supply"
+      ],
+      "mustVerify": "确认真伪、销售授权与场地经营许可；不把展览举行当作门口可摆摊",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-006",
+      "scene": "IP展览、动漫展与亲子展",
+      "audience": "亲子家庭、收藏者、Coser",
+      "name": "收藏保护与展示配件",
+      "offer": "卡套、卡册、展示底座、收纳袋",
+      "revenueModel": "商品差价",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "anime",
+        "organizer",
+        "supply"
+      ],
+      "mustVerify": "匹配现场交易的尺寸与品类，优先小批量通用品降低剩货风险",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-007",
+      "scene": "IP展览、动漫展与亲子展",
+      "audience": "亲子家庭、收藏者、Coser",
+      "name": "Cos服装道具应急修补",
+      "offer": "缝补、固定、简单道具修复",
+      "revenueModel": "服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "anime",
+        "organizer",
+        "supply"
+      ],
+      "mustVerify": "需要手艺和材料，事先确认能处理的范围；损坏责任明确",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-008",
+      "scene": "IP展览、动漫展与亲子展",
+      "audience": "亲子家庭、收藏者、Coser",
+      "name": "妆造预约与道具租赁组合",
+      "offer": "按时段妆造、配件出租",
+      "revenueModel": "服务费及租金",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "anime",
+        "organizer",
+        "supply"
+      ],
+      "mustVerify": "交付时间、卫生、押金与归还节点明确；押金不计收入",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-009",
+      "scene": "马拉松、骑行赛与户外赛事",
+      "audience": "参赛者、陪同者、俱乐部",
+      "name": "赛前遗忘装备补给",
+      "offer": "号码布扣、鞋带等非医疗运动小件",
+      "revenueModel": "商品差价",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "events",
+        "organizer",
+        "buyer"
+      ],
+      "mustVerify": "核对赛事物料包是否已提供；选择允许交易的点位",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-010",
+      "scene": "马拉松、骑行赛与户外赛事",
+      "audience": "参赛者、陪同者、俱乐部",
+      "name": "完赛纪念定制",
+      "offer": "奖牌展示架、纪念照片与个性化文字制作",
+      "revenueModel": "商品差价及服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "events",
+        "organizer",
+        "buyer"
+      ],
+      "mustVerify": "只使用可授权素材；现场样品展示加预订可减少库存",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-011",
+      "scene": "马拉松、骑行赛与户外赛事",
+      "audience": "参赛者、陪同者、俱乐部",
+      "name": "俱乐部后勤打包服务",
+      "offer": "经约定的物料整理、补给采购与送达",
+      "revenueModel": "服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "events",
+        "organizer",
+        "buyer"
+      ],
+      "mustVerify": "俱乐部预订，不冒充赛事官方保障；运输及等待时间计费",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-012",
+      "scene": "马拉松、骑行赛与户外赛事",
+      "audience": "参赛者、陪同者、俱乐部",
+      "name": "自行车轻维护与耗材",
+      "offer": "补胎、调试及常用配件更换",
+      "revenueModel": "服务费及商品差价",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "events",
+        "organizer",
+        "buyer"
+      ],
+      "mustVerify": "需实际维修能力与明确服务边界；备件与工具增加负重",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-013",
+      "scene": "花季、赏秋、雪季与节庆",
+      "audience": "季节游客、情侣、家庭",
+      "name": "季节拍照配件租售",
+      "offer": "通用花篮、披肩、装饰伞等",
+      "revenueModel": "租金或商品差价",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "season",
+        "organizer",
+        "supply"
+      ],
+      "mustVerify": "租赁回收点、清洁、损耗明确；不损坏景观",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-014",
+      "scene": "花季、赏秋、雪季与节庆",
+      "audience": "季节游客、情侣、家庭",
+      "name": "目的地原创纪念小物",
+      "offer": "原创插画明信片、手绘地图、徽章",
+      "revenueModel": "商品差价",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "season",
+        "organizer",
+        "supply"
+      ],
+      "mustVerify": "围绕当地真实特色，不复制他人图案；验证购买而非点赞",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-015",
+      "scene": "花季、赏秋、雪季与节庆",
+      "audience": "季节游客、情侣、家庭",
+      "name": "家庭出游应急包",
+      "offer": "纸巾、防水袋、便携收纳等组合",
+      "revenueModel": "商品差价",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "season",
+        "organizer",
+        "supply"
+      ],
+      "mustVerify": "从真实缺物场景切入，核算比便利店贵的理由",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-016",
+      "scene": "花季、赏秋、雪季与节庆",
+      "audience": "季节游客、情侣、家庭",
+      "name": "节日礼物现场包装与定制",
+      "offer": "书写祝福、包装、简单刻字制作",
+      "revenueModel": "服务费及材料差价",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "season",
+        "organizer",
+        "supply"
+      ],
+      "mustVerify": "在允许经营的点位做样品和小额预订，核实供电与材料",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-017",
+      "scene": "商业展会与产业采购出行",
+      "audience": "外地采购商、参展商、小商家",
+      "name": "受托逛展与供应商信息整理",
+      "offer": "按买方问题采集展商、产品和公开报价并交报告",
+      "revenueModel": "服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "events",
+        "services",
+        "buyer"
+      ],
+      "mustVerify": "先有委托，区分公开资料和商业秘密；不得承诺替代专业尽调",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-018",
+      "scene": "商业展会与产业采购出行",
+      "audience": "外地采购商、参展商、小商家",
+      "name": "样品代取、清点与寄送",
+      "offer": "受托取得允许领取的样品并包装交接",
+      "revenueModel": "服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "events",
+        "services",
+        "buyer"
+      ],
+      "mustVerify": "取得商家与委托人确认，不假冒身份；邮费和损坏责任单列",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-019",
+      "scene": "商业展会与产业采购出行",
+      "audience": "外地采购商、参展商、小商家",
+      "name": "展商内容当天交付",
+      "offer": "展台产品照片、短视频与图文更新",
+      "revenueModel": "服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "events",
+        "services",
+        "buyer"
+      ],
+      "mustVerify": "先向展商售卖清晰交付包，素材用途与修改次数明确",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-020",
+      "scene": "商业展会与产业采购出行",
+      "audience": "外地采购商、参展商、小商家",
+      "name": "多店采购合单与验货记录",
+      "offer": "到产地按清单采购、拍摄、汇总发货",
+      "revenueModel": "服务费或披露的差价",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "events",
+        "services",
+        "buyer"
+      ],
+      "mustVerify": "先拿订单再采购；真伪、退货、运输和垫资风险明确",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-021",
+      "scene": "市集、夜游与商业街活动",
+      "audience": "逛集消费者、主办方、现有摊主",
+      "name": "轻便原创手作流动摊位",
+      "offer": "带小批量手作跨城参加正规市集",
+      "revenueModel": "商品差价",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "organizer",
+        "supply",
+        "buyer"
+      ],
+      "mustVerify": "核算摊位、交通、装卸、损耗；需证明产品与当地客群匹配",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-022",
+      "scene": "市集、夜游与商业街活动",
+      "audience": "逛集消费者、主办方、现有摊主",
+      "name": "现有摊主的联营寄售",
+      "offer": "借已有摊位陈列自有商品，约定分成",
+      "revenueModel": "销售分成",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "organizer",
+        "supply",
+        "buyer"
+      ],
+      "mustVerify": "取得对方及必要的场地方同意，明确盘点、损耗和结算",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-023",
+      "scene": "市集、夜游与商业街活动",
+      "audience": "逛集消费者、主办方、现有摊主",
+      "name": "预售提货替代大量备货",
+      "offer": "出发前展示样品，按已确认订单在目的地交付",
+      "revenueModel": "商品差价",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "organizer",
+        "supply",
+        "buyer"
+      ],
+      "mustVerify": "订单取消与售后责任明确；预收款仍有履约义务",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-024",
+      "scene": "市集、夜游与商业街活动",
+      "audience": "逛集消费者、主办方、现有摊主",
+      "name": "摊主物料补给与制作",
+      "offer": "临时价签、菜单、包装、灯具租赁与配送",
+      "revenueModel": "商品差价及服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "organizer",
+        "supply",
+        "buyer"
+      ],
+      "mustVerify": "客户是摊主而非游客；确认现场缺口、交付时间与供电",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-025",
+      "scene": "酒店、民宿、餐饮与目的地商家",
+      "audience": "店主、运营人员、商家客户",
+      "name": "商家房型与菜单素材包",
+      "offer": "在行程内拍摄图片、短视频，供商家使用",
+      "revenueModel": "服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "buyer",
+        "services",
+        "creator"
+      ],
+      "mustVerify": "不依赖个人粉丝数，但需要作品和验收标准",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-026",
+      "scene": "酒店、民宿、餐饮与目的地商家",
+      "audience": "店主、运营人员、商家客户",
+      "name": "店铺外语信息整理",
+      "offer": "菜单、入住说明、交通指引的翻译与排版",
+      "revenueModel": "服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "buyer",
+        "services",
+        "creator"
+      ],
+      "mustVerify": "先确认店家有付费需求，翻译质量与修改责任明确",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-027",
+      "scene": "酒店、民宿、餐饮与目的地商家",
+      "audience": "店主、运营人员、商家客户",
+      "name": "住店换内容交付",
+      "offer": "按明确任务交付图片/文章，抵扣住宿",
+      "revenueModel": "费用减免或混合报酬",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "buyer",
+        "services",
+        "creator"
+      ],
+      "mustVerify": "分别确认房费减免和现金；免费住宿不算赚到现金",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-028",
+      "scene": "酒店、民宿、餐饮与目的地商家",
+      "audience": "店主、运营人员、商家客户",
+      "name": "短期到店运营改善",
+      "offer": "整理预订表、基础网页、菜单展示和客户问答",
+      "revenueModel": "项目服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "buyer",
+        "services",
+        "creator"
+      ],
+      "mustVerify": "以明确成果售卖，不泛称AI赋能；账户由店家控制",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-029",
+      "scene": "顺路、在场与时间差形成的服务",
+      "audience": "异地委托人、研究公司、当地住户",
+      "name": "受托门店与服务体验检查",
+      "offer": "按已确认的研究任务采集现场事实",
+      "revenueModel": "任务服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "research",
+        "buyer",
+        "delivery"
+      ],
+      "mustVerify": "先验证委托方、验收和报销；不把刷好评当调研",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-030",
+      "scene": "顺路、在场与时间差形成的服务",
+      "audience": "异地委托人、研究公司、当地住户",
+      "name": "公开场地踩点记录",
+      "offer": "交通入口、设备、动线、公共设施实拍与说明",
+      "revenueModel": "服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "research",
+        "buyer",
+        "delivery"
+      ],
+      "mustVerify": "买方是活动方或异地客户；先确认需求，不拍摄受限区域",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-031",
+      "scene": "顺路、在场与时间差形成的服务",
+      "audience": "异地委托人、研究公司、当地住户",
+      "name": "旅居期间宠物照看与植物养护",
+      "offer": "约定时段上门完成照料记录",
+      "revenueModel": "服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "research",
+        "buyer",
+        "delivery"
+      ],
+      "mustVerify": "与行程兼容且持续到岗；钥匙、授权、动物照护能力需确认",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-032",
+      "scene": "顺路、在场与时间差形成的服务",
+      "audience": "异地委托人、研究公司、当地住户",
+      "name": "通勤路线内的正规配送",
+      "offer": "通过已完成准入的平台承接同城任务",
+      "revenueModel": "配送服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "research",
+        "buyer",
+        "delivery"
+      ],
+      "mustVerify": "平台入驻与路线须匹配，不能把同城订单当跨城随便捎带",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-033",
+      "scene": "内容、经验与作品的多次销售",
+      "audience": "品牌、商家、读者、素材购买方",
+      "name": "目的地商单内容",
+      "offer": "围绕事先确认的品牌任务拍摄并发布",
+      "revenueModel": "商单服务费",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "creator",
+        "localcommerce",
+        "licensing",
+        "buyer"
+      ],
+      "mustVerify": "账号或作品要求按实际任务核验，先有合作再增加旅行开销",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-034",
+      "scene": "内容、经验与作品的多次销售",
+      "audience": "品牌、商家、读者、素材购买方",
+      "name": "旅途中原创图片与视频授权",
+      "offer": "把有权授权的作品作为可重复销售资产",
+      "revenueModel": "版权分成",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "creator",
+        "localcommerce",
+        "licensing",
+        "buyer"
+      ],
+      "mustVerify": "非即时收入；未售出记零，权利和用途逐项确认",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-035",
+      "scene": "内容、经验与作品的多次销售",
+      "audience": "品牌、商家、读者、素材购买方",
+      "name": "细分需求路线产品",
+      "offer": "亲子、带宠、无障碍等实地核验的路线资料",
+      "revenueModel": "数字产品销售",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "creator",
+        "localcommerce",
+        "licensing",
+        "buyer"
+      ],
+      "mustVerify": "客户为具体解决方案付费；先验证付费意愿，持续更新成本计入",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-036",
+      "scene": "内容、经验与作品的多次销售",
+      "audience": "品牌、商家、读者、素材购买方",
+      "name": "当地团购成交佣金",
+      "offer": "通过真实体验内容帮助商家完成可追踪成交",
+      "revenueModel": "佣金",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "creator",
+        "localcommerce",
+        "licensing",
+        "buyer"
+      ],
+      "mustVerify": "需实际成交及平台结算；曝光量、GMV和到账佣金分开",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-037",
+      "scene": "旅居、已有资源与合作交换",
+      "audience": "旅舍、合作商户、同路消费者",
+      "name": "技能换住宿或餐食",
+      "offer": "向旅舍提供它需要的设计、修缮、内容或教学",
+      "revenueModel": "费用减免",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "swap",
+        "buyer",
+        "organizer"
+      ],
+      "mustVerify": "先谈对方真正需要什么；工时与减免价值分开算",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-038",
+      "scene": "旅居、已有资源与合作交换",
+      "audience": "旅舍、合作商户、同路消费者",
+      "name": "自有便携设备预约出租",
+      "offer": "将行程中闲置的摄影/户外用品出租",
+      "revenueModel": "租金",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "swap",
+        "buyer",
+        "organizer"
+      ],
+      "mustVerify": "所有权、保障、交接与回收可执行；损坏押金不是收益",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-039",
+      "scene": "旅居、已有资源与合作交换",
+      "audience": "旅舍、合作商户、同路消费者",
+      "name": "联合小型体验活动",
+      "offer": "与当地有资质或适当条件的商家合作手作等体验",
+      "revenueModel": "服务费或分成",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "swap",
+        "buyer",
+        "organizer"
+      ],
+      "mustVerify": "按活动类型核验经营条件；人数、退款和职责清楚",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    },
+    {
+      "id": "cut-040",
+      "scene": "旅居、已有资源与合作交换",
+      "audience": "旅舍、合作商户、同路消费者",
+      "name": "旅行前拿客户订单再安排路线",
+      "offer": "以已有服务订单串联目的地和空闲游玩",
+      "revenueModel": "项目收入",
+      "travelConnection": "在目标事件或地点聚集需求时到场，或利用已发生行程降低交付成本",
+      "sourceIds": [
+        "swap",
+        "buyer",
+        "organizer"
+      ],
+      "mustVerify": "这是出行组织方式，不是额外新收入；避免重复计算同一订单",
+      "status": "待验证的生意假设",
+      "expectedIncome": null
+    }
+  ]
+}
