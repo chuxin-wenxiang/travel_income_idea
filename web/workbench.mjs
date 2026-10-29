@@ -22,7 +22,7 @@ function compute(persist){try{
  const inputs=Object.fromEntries(fields.map(([k])=>[k,$('#p-'+k).value===''?NaN:Number($('#p-'+k).value)]));const r=calculate(inputs);const o=state.opportunities.find(o=>o.id===active);const confirmedOrders=Number($('#confirmedOrders').value);
  if(!Number.isInteger(confirmedOrders)||confirmedOrders<0||confirmedOrders>r.orders)throw Error('确认单数必须在可执行计划单数范围内');
  if(confirmedOrders>0&&!['confirmed','completed'].includes(o.status))throw Error('先在机会中记录对方确认内容，才能计入确认单数');
- if(['已关闭','招募截止'].includes(freshness(o))&&o.status!=='completed'&&o.status!=='confirmed')throw Error('机会已关闭或招募截止，请重新核验后再规划');
+ if(['已关闭','招募截止','工作日期已过'].includes(freshness(o))&&o.status!=='completed'&&o.status!=='confirmed')throw Error('机会已关闭或招募截止，请重新核验后再规划');
  const guaranteed=calculate({...inputs,orders:confirmedOrders}).expected;
  const noSaving=calculate({...inputs,orders:0,saving:0}).expected;
  computed={inputs,r,confirmedOrders,guaranteed,noSaving};

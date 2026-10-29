@@ -1,3 +1,4 @@
+import {validDate} from './domestic.mjs';
 export const STATUSES=['discovered','contacted','confirmed','completed','closed'];
 export const LABELS={discovered:'待核验',contacted:'已联系',confirmed:'已确认合作',completed:'已完成',closed:'已关闭'};
 export function safeURL(s){try{const u=new URL(s);return u.protocol==='https:'&&!u.username&&!u.password?u.href:null;}catch{return null;}}
@@ -9,11 +10,14 @@ export function validateOpportunity(o){
   if(!Number.isFinite(Date.parse(o.checkedAt)))throw Error('核验时间无效');
   if(o.deadline&&(!/^\d{4}-\d{2}-\d{2}$/.test(o.deadline)||new Date(o.deadline+'T00:00:00Z').toISOString().slice(0,10)!==o.deadline))throw Error('截止日期无效');
   if(['confirmed','completed'].includes(o.status)&&(!o.confirmation?.trim()||o.kind==='lead'))throw Error('确认合作前需要明确招募和对方确认内容');
+  if(o.domestic){for(const k of ['start','end'])if(o.domestic[k]&&!validDate(o.domestic[k]))throw Error('国内工作日期无效');if(typeof o.domestic.dateUncertain!=='boolean')throw Error('日期核验标记无效');}
   return {...o,sourceUrl:safeURL(o.sourceUrl)};
 }
 export function freshness(o,now=new Date()){
   const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);
   if(o.status==='closed')return '已关闭';
+  if(o.domestic?.end&&!o.domestic.dateUncertain&&o.domestic.end<today)return '工作日期已过';
+  if(o.domestic?.dateUncertain)return '正文年份或日期待确认';
   if(o.deadline&&o.deadline<today)return '招募截止';
   if(now-new Date(o.checkedAt)>7*86400000)return '超过 7 天未核验';
   return o.deadline?'日期尚未截止，需查看原文':'截止日期未知，需查看原文';

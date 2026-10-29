@@ -1,0 +1,12 @@
+{
+  "reviewedAt": "2026-10-29",
+  "city": "上海",
+  "coverage": "国内自动实时职位接口：0 个。以下为原站发现入口，需用户在原站查找并核验；不将搜索结果、历史报道或登录后的私有数据复制为公共职位库。",
+  "sources": [
+    {"name":"店长直聘","category":"photo","url":"https://www.dianzhangzhipin.com/","query":"上海 兼职 活动跟拍 摄影师 旅拍","access":"部分职位详情公开；沟通通常需要 APP 或平台账号。尚无本项目获授权的公开 API。","mode":"原站查找 → 本地录入"},
+    {"name":"实习僧","category":"event","url":"https://www.shixiseng.com/","query":"上海 展会 兼职 引导 短期","access":"部分详情公开；投递需平台账号。需排除长期实习、在校生限定以及工作日已过去的岗位。","mode":"原站查找 → 本地录入"},
+    {"name":"工多多","category":"event","url":"https://love.gongduoduo.com/","query":"上海 展会 工作人员 兼职","access":"公开页与登录区域并存；用户协议限制未经许可抓取和站外展示，本项目未接爬虫。","mode":"仅原站人工查询","policy":"https://love.gongduoduo.com/about/rule2.jsp"},
+    {"name":"豆瓣小组","category":"swap","url":"https://www.douban.com/group/","query":"上海 青旅 换宿 招募","access":"帖子访问可能需要登录；本轮未找到已核实有效的上海换宿招募。需检查原帖年份、店名、工时及最短入住天数。","mode":"原站查找 → 本地录入"},
+    {"name":"国际青年旅舍（中国）","category":"swap","url":"https://www.yhachina.com/","query":"上海 青年旅舍 义工 换宿 招募","access":"用于寻找旅舍官方身份与公开联系渠道，不是实时换宿职位库；有旅舍不代表有换宿名额。","mode":"旅舍目录线索"}
+  ]
+}

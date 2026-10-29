@@ -1,0 +1,6 @@
+{
+  "asOf": "2026-10-29",
+  "notice": "人工核验案例，不是实时招聘列表。用户画像为测试假设，未联系或报名。",
+  "profile": {"city":"上海","start":"2026-11-05","end":"2026-11-08","maxHours":6,"camera":false,"photography":false,"student":false,"cashOnly":false},
+  "offer": {"title":"上海活动跟拍摄影（核验案例）","url":"https://www.dianzhangzhipin.com/job/1Xdy0tS9FFM~.html","category":"photo","city":"上海","kind":"recruitment","published":"2026-03-05","start":"","end":"","dateUncertain":false,"minDays":null,"hours":null,"camera":"no","student":"unknown","skill":"photography","fee":"unknown","application":"placeholder"}
+}
