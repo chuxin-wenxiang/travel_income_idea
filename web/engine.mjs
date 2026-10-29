@@ -2,7 +2,7 @@ export function calculate(x) {
   for (const k of ['days','workHours','transport','nightly','nights','food','other','setup','price','variable','hours','orders','saving','budget']) {
     if (!Number.isFinite(x[k]) || x[k] < 0) throw new Error('请填写有效的非负数字');
   }
-  if(x.days<1 || x.hours<=0 || x.workHours>x.days*24 || x.nights>x.days || !Number.isInteger(x.orders)) throw new Error('请检查天数、晚数、工时和整数订单数');
+  if(!Number.isInteger(x.days)||!Number.isInteger(x.nights)||x.days<1 || x.hours<=0 || x.workHours>x.days*24 || x.nights>x.days || !Number.isInteger(x.orders)) throw new Error('请检查天数、晚数、工时和整数订单数');
   const base=x.transport+x.nightly*x.nights+x.food*x.days+x.other;
   const saving=Math.min(x.saving,x.nightly*x.nights);
   const fixed=base-saving+x.setup;

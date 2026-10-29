@@ -1,7 +1,7 @@
-# v0.3 配置索引；网页实际读取 data/pilots.json
+# v0.4 配置索引；网页实际读取 data/pilots.json
 skill:
   name: travel-income-assistant
-  version: 0.3.0
+  version: 0.4.0
 data:
   pilots: data/pilots.json
   ideas: data/100_玩法完整清单.json
@@ -12,3 +12,10 @@ model:
   scenarios: [zero_orders, half_orders, planned_orders]
   savings_are_cash_income: false
   enforce_work_capacity: true
+
+sources:
+  jobicy:
+    module: lib/jobicy.mjs
+    authentication: none
+    cache_seconds: 3600
+    coverage: recent_remote_jobs_first_page

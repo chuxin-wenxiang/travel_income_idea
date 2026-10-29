@@ -1,10 +1,15 @@
 {
   "name": "travel-income-idea",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "description": "旅行创收助手：可解释的成本测算与行动规划原型",
   "scripts": {
     "start": "node scripts/serve.mjs",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "discover": "node scripts/discover.mjs",
+    "install:skill": "node scripts/install-skill.mjs"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
